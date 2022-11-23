@@ -1,31 +1,99 @@
-# exo_rattrapage
+// exo_rattrapage
 
-## exo 1
+// exo 1
+/*
+function repeter (string,multiple){    
 
-## exo 2
+    return string.repeat(multiple);
+}
 
-## exo 3
+let newText = repeter ('Abigail et Olivia. ', 5);
+
+console.log(newText);
+*/
+
+// exo 2
+/*
+function inverser (string) {
+    return string.split('').reverse().join('');
+}
+
+let myNewText = inverser ('Sandrine');
+console.log(myNewText);
+*/
+
+/* exo 3
 creer une fonction remove
 1 argument texte
-retourner le texte (ne pas inverser les 'lettres') en enlevant le 1er et le dernier caractère
+retourner le texte (ne pas inverser les 'lettres') en enlevant le 1er et le dernier caractère*/
 
-## exo 4
+/*
+function remove (string) {
+    return string.slice((1),(0,-1));
+
+}
+
+let myNewText = remove ('Sandrine');
+console.log(myNewText);
+*/
+
+/* exo 4
 creer une fonction removeSpace
 recoit un argument texte (1 phrase)
-retourne le texte sans espace;
+retourne le texte sans espace;*/
 
-## exo 5
+/*
+function removeSpace (string){
+    
+    return string.split(" ").join("");
+}
+
+
+let newString = removeSpace("Bonjour, comment allez vous aujourd'hui ?");
+console.log(newString);
+*/
+
+/* exo 5
 creer une fonction switchName
 qui recoit en argument de type string(une phrase)
 et retourne l'inverse
-ex: "bob dupont"  --> "dupont bob"
+ex: "bob dupont"  --> "dupont bob"*/
 
-## exo 6
+/*
+function inverser(string) {
+    return string.split(' ').reverse().join(' ');    
+}
+const myName = inverser ('Sandrine Proença');
+console.log(myName);
+*/
+
+/* exo 6
 creer une fonction counter
 qui recoit une phrase
-et retourne le nombre de mots
+et retourne le nombre de mots*/
 
-## exo 7
+/*
+function counter(string) {
+return string.split(/\b\w+\b/).length-1;
+}
+
+let nbMots = counter ("je viens de m'inscrire à la monomitik");
+console.log(nbMots);
+*/
+
+/* exo 7
 creer une fonction pairOuImpair
 recoit un nombre
-retourne "pair" ou "impair"
+retourne "pair" ou "impair"*/
+
+/*
+function pairImpair(value) {
+    if (value%2 == 0){
+    return "nombre pair";
+    }
+    else
+    return "nombre impaire";
+    }
+let myNumber = pairImpair(5454846452);
+console.log(myNumber);
+*/
