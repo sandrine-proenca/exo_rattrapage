@@ -97,3 +97,18 @@ function pairImpair(value) {
 let myNumber = pairImpair(5454846452);
 console.log(myNumber);
 */
+
+// Creer une fonction moyenne qui recoit un array 
+//contenant plusieurs nombres et renvoie la valeur moyenne
+/*
+function ArrayAvg(myArray) {
+    var i = 0, summ = 0, ArrayLen = myArray.length;
+    while (i < ArrayLen) {
+        summ = summ + myArray[i++];
+}
+    return summ / ArrayLen;
+}
+var myArray = [1, 15, 12, 3, 17];
+var a = ArrayAvg(myArray);
+console.log(a);
+*/
