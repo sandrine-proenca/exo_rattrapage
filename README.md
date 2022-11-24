@@ -153,3 +153,24 @@ function passeLaMoyenne(array) {
 let mesNotesMax = passeLaMoyenne(mesNotes);
 console.log(mesNotesMax);
 */
+
+
+/* exo 11:
+/*
+Creer une fonction trier qui recoit un array 
+de nombre dans le desordre et retourne cet array 
+par ordre du plus petit au plus grand
+*/
+
+function trier(array) {
+    const result = array.slice().sort((a, b) => a - b);
+    return result;
+}
+
+
+
+const numbers = [1, 5, 8, 12, 2, 110, 7, 64, 9, 3];
+
+let dansOrdre = trier(numbers);
+console.log(dansOrdre);
+*/ 
