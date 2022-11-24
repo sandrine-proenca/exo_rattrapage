@@ -12,6 +12,8 @@ let newText = repeter ('Abigail et Olivia. ', 5);
 console.log(newText);
 */
 
+///////////////////////////////////////////////////////////////
+
 // exo 2
 /*
 function inverser (string) {
@@ -21,6 +23,8 @@ function inverser (string) {
 let myNewText = inverser ('Sandrine');
 console.log(myNewText);
 */
+
+////////////////////////////////////////////////////////////
 
 /* exo 3
 creer une fonction remove
@@ -36,6 +40,8 @@ function remove (string) {
 let myNewText = remove ('Sandrine');
 console.log(myNewText);
 */
+
+////////////////////////////////////////////////////////
 
 /* exo 4
 creer une fonction removeSpace
@@ -53,6 +59,8 @@ let newString = removeSpace("Bonjour, comment allez vous aujourd'hui ?");
 console.log(newString);
 */
 
+////////////////////////////////////////////////////////////////
+
 /* exo 5
 creer une fonction switchName
 qui recoit en argument de type string(une phrase)
@@ -67,6 +75,8 @@ const myName = inverser ('Sandrine Proença');
 console.log(myName);
 */
 
+/////////////////////////////////////////////////////////
+
 /* exo 6
 creer une fonction counter
 qui recoit une phrase
@@ -80,6 +90,8 @@ return string.split(/\b\w+\b/).length-1;
 let nbMots = counter ("je viens de m'inscrire à la monomitik");
 console.log(nbMots);
 */
+
+//////////////////////////////////////////////////////////////
 
 /* exo 7
 creer une fonction pairOuImpair
@@ -97,6 +109,8 @@ function pairImpair(value) {
 let myNumber = pairImpair(5454846452);
 console.log(myNumber);
 */
+
+///////////////////////////////////////////////////////////////////////
 
 /* exo 8
 Creer une fonction moyenne qui recoit un array 
@@ -130,6 +144,9 @@ function ArrayAvg(myArray) {
 }
     return summ / ArrayLen;
 }
+*/
+
+/////////////////////////////////////////////////////////
 
 /* exo 9:
 // j'ai mon tableau d'origine avec toutes mes notes
@@ -154,6 +171,7 @@ let mesNotesMax = passeLaMoyenne(mesNotes);
 console.log(mesNotesMax);
 */
 
+//////////////////////////////////////////////////////
 
 /* exo 11:
 /*
@@ -174,3 +192,35 @@ const numbers = [1, 5, 8, 12, 2, 110, 7, 64, 9, 3];
 let dansOrdre = trier(numbers);
 console.log(dansOrdre);
 */ 
+
+//////////////////////////////////////////////
+
+/* exo 12:
+/*
+creer une fonction justPair qui recoit un array
+de nombre et renvoie cet array avec seulement 
+les nombres paires
+*/
+
+//  trouve le nb pair:  (value%2 == 0)
+
+
+
+let myArray = [12, 15, 200, 13, 8];  
+
+
+function justPair(array) { 
+    let newArray = [];
+    for (let i= 0; i < array.length; i++) {
+        if (array[i]%2 == 0){
+            newArray.push(array[i]);
+        }
+    }
+    return newArray;
+}
+let arrayPair = justPair(myArray);
+console.log(arrayPair);
+*/
+
+////////////////////////////////////////////////////////////
+
