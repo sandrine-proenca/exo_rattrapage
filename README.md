@@ -98,8 +98,11 @@ let myNumber = pairImpair(5454846452);
 console.log(myNumber);
 */
 
-// Creer une fonction moyenne qui recoit un array 
-//contenant plusieurs nombres et renvoie la valeur moyenne
+/* exo 8
+Creer une fonction moyenne qui recoit un array 
+contenant plusieurs nombres et renvoie la valeur moyenne
+*/
+
 /*
 function ArrayAvg(myArray) {
     var i = 0, summ = 0, ArrayLen = myArray.length;
