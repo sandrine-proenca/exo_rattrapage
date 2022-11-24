@@ -115,3 +115,41 @@ var myArray = [1, 15, 12, 3, 17];
 var a = ArrayAvg(myArray);
 console.log(a);
 */
+
+/* creer une fonction passeLaMoyenne qui recoit un array
+contenant plusieurs nombres et renvoie un array avec les
+notes superieurs a la moyenne
+*/
+
+// ma fonction qui calcul la moyenne de mon tableau
+
+function ArrayAvg(myArray) {
+    var i = 0, summ = 0, ArrayLen = myArray.length;
+    while (i < ArrayLen) {
+        summ = summ + myArray[i++];
+}
+    return summ / ArrayLen;
+}
+
+/* exo 9:
+// j'ai mon tableau d'origine avec toutes mes notes
+
+let mesNotes = [11, 15, 20, 13, 17];  
+
+
+function passeLaMoyenne(array) {
+    let maMoyenne = ArrayAvg(mesNotes);
+    console.log(maMoyenne);
+    let newArray = [];
+    for (let i = 0; i < array.length; i++) {
+        if (array[i]>maMoyenne){
+            newArray.push(array[i]);
+        }
+        //newArray.push()
+    }
+    return newArray;
+}
+
+let mesNotesMax = passeLaMoyenne(mesNotes);
+console.log(mesNotesMax);
+*/
