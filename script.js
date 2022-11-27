@@ -220,7 +220,7 @@ function justPair(array) {
 }
 let arrayPair = justPair(myArray);
 console.log(arrayPair);
-*/
+
 
 ////////////////////////////////////////////////////////////
 
